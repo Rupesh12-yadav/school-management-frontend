@@ -1,0 +1,48 @@
+/* Import Tailwind */
+@import "tailwindcss";
+
+/* 🎨 Global Theme Variables */
+:root {
+  /* ===== Primary Theme Colors ===== */
+  --primary-color: #facc15; /* Main yellow */
+  --secondary-color: #f59e0b; /* Deep amber / hover accent */
+  --background-color: #fffdf3; /* Soft white background */
+
+  /* ===== Layout Colors ===== */
+  --sidebar-bg: #ffffff; /* Sidebar background */
+  --sidebar-hover: #fef9c3; /* Hover color in sidebar */
+  --sidebar-active: #fcd34d; /* Active menu color */
+  --navbar-bg: #fff8dc; /* Navbar background */
+
+  /* ===== Text Colors ===== */
+  --text-primary: #1e1e1e; /* Main text color */
+  --text-secondary: #4b5563; /* Secondary text color */
+
+  /* ===== Button Colors ===== */
+  --button-primary-bg: #1e1e1e; /* Black background */
+  --button-primary-text: #facc15; /* Yellow text */
+  --button-primary-border: #facc15; /* Yellow border */
+  --button-secondary-border: #1e1e1e;
+  --button-secondary-text: #1e1e1e; /* Black text */
+  --button-secondary-hover: #fef9c3; /* Hover background */
+  --icon :#FACC15;
+  --button-uplode:#3182ce;
+  --button-ulode-hover:#2b6cb0;
+
+
+  /* ===== Card & Shadow ===== */
+  --card-bg: #ffffff; /* White card background */
+  --card-border: #facc15; /* Yellow left border */
+  --shadow-light: rgba(0, 0, 0, 0.1); /* Soft shadow */
+  /*======== table heading colour====*/
+--gradient-yellow: linear-gradient(to bottom right, #FEF08A, #FEF9C3);
+}
+
+
+/* Example Usage (Optional Preview)
+-----------------------------------
+.bg-primary   { background-color: var(--primary-color); }
+.text-primary { color: var(--text-primary); }
+.border-accent { border-color: var(--secondary-color); }
+-----------------------------------
+*/
