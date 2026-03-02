@@ -16,7 +16,7 @@ import {
 } from "react-icons/fa";
 import { FiLogOut, FiMenu } from "react-icons/fi";
 import { MdAssessment } from "react-icons/md";
-import Student_img from "../../assets/student.jpg";
+import Student_img from "../../assets/Student.jpg";
 
 
 import Homework from "./Homework";
